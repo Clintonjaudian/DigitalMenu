@@ -1,0 +1,285 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0.5px 0.5px #fdfefe;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+/* Upper
+======================================== */
+.upper
+{
+    height: 65vh;
+}
+
+/* Upper Left */
+#upper_left
+{
+    box-sizing: border-box;
+    border-width: 0 .4vw .4vw 0;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+.upper_left_table
+{
+    padding-left: 1%;
+    padding-right: 5vw;
+    position: absolute;
+    top: 1vw;
+}
+
+.upper_left_tr
+{
+    font-size: 1.6vw;
+    font-family: cursive;
+    margin-bottom: .6vh;
+}
+
+.peso
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Upper Left Rectangle Slider */
+.upper_left_slider_container
+{
+    position: absolute;
+    top: 1vw;
+}
+
+.upper_left_slider
+{
+    height: 30vh;
+    left: -2%;
+    overflow: hidden;
+}
+
+.upper_left_rect_slider
+{
+    height: 3vw;
+    width: 45vw;
+    border: .4vw solid orange;
+    border-radius: 1vw;
+    top: 0px;
+    left: 0%;
+    z-index: 1;
+    opacity: 0.9;
+    position: absolute;
+}
+
+
+.upper_left_product_img
+{
+    position: absolute;
+    margin-top: 8vh;
+    max-width: 40vw;
+    left: 2vw;
+
+    animation-duration: 1.8s;
+    /* animation-delay: 2s; */
+}
+
+.upper_left_price_tag
+{
+    position: absolute;
+    margin-top: 46vh;
+    max-width: 8vw;
+    left: 35vw;
+}
+
+/* Upper Right */
+#upper_right
+{
+    box-sizing: border-box;
+    border-width: 0 0 .4vw .4vw;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+.upper_right_table
+{
+    padding-left: 1%;
+    padding-right: 5vw;
+    position: absolute;
+    top: 1vw;
+}
+
+.upper_right_tr
+{
+    font-size: 1.6vw;
+    font-family: cursive;
+    margin-bottom: .6vh;
+}
+
+.upper_right_product_img
+{
+    position: absolute;
+    margin-top: 8vh;
+    max-width: 40vw;
+    left: 2vw;
+
+    animation-duration: 1.8s;
+    /* animation-delay: 2s; */
+}
+
+/*Upper Right Rectangle Slider */
+.upper_right_slider_container
+{
+    position: absolute;
+    top: 1vw;
+}
+
+.upper_right_slider
+{
+    height: 30vh;
+    left: -2%;
+    overflow: hidden;
+}
+
+.upper_right_rect_slider
+{
+    height: 3vw;
+    width: 45vw;
+    border: .4vw solid orange;
+    border-radius: 1vw;
+    top: 0px;
+    left: 0%;
+    z-index: 1;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.upper_right_price_tag
+{
+    position: absolute;
+    margin-top: 46vh;
+    max-width: 8vw;
+    left: 35vw;
+}
+
+/* Lower 
+=========================================*/
+.lower
+{
+    height: 35vh;
+}
+
+/* Lower Left */
+#lower_left
+{
+    box-sizing: border-box;
+    border-width: .4vw .4vw 0 0;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+#lower_left_clasification
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3.3vw;
+    left: -1vw;
+}
+
+#lower_left_product_name
+{
+    font-size: 2vw;
+    font-family: cursive;
+    left: -1.5vw;
+    z-index: 1;
+    margin-top: -1vw;
+}
+
+.lower_left_price_tag
+{
+    max-width: 8vw;
+    margin-left: -6vw;
+    margin-top: 7.5vw;
+}
+
+.lower_left_addon
+{
+    max-width: 14vw;
+    margin-left: -9vw;
+    margin-top: 2.5vw;
+}
+
+.lower_left_img_food
+{
+    max-width: 18vw;
+    margin-left: -8vw;
+    margin-top: 4vw;
+}
+
+/* Lower Right */
+#lower_right
+{
+    box-sizing: border-box;
+    border-width: .4vw 0 0 .4vw;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+#lower_right_clasification
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3.3vw;
+    left: -1vw;
+}
+
+#lower_right_product_name
+{
+    font-size: 2vw;
+    font-family: cursive;
+    left: -1.5vw;
+    z-index: 1;
+    margin-top: -1vw;
+}
+
+.lower_right_price_tag
+{
+    max-width: 8vw;
+    margin-left: -6vw;
+    margin-top: 7.5vw;
+}
+
+.lower_right_addon
+{
+    max-width: 14vw;
+    margin-left: -9vw;
+    margin-top: 2.5vw;
+}
+
+.lower_right_img_food
+{
+    max-width: 18vw;
+    margin-left: -8vw;
+    margin-top: 4vw;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.price_tag
+{
+    z-index: 2;
+}
+
+.addon
+{
+    z-index: 1;
+}

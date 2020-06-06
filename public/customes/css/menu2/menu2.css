@@ -1,0 +1,387 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0.5px 0.5px #fdfefe;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+/* Upper
+======================================== */
+.upper
+{
+    height: 55vh;
+}
+
+/* Upper Left */
+#upper-left-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.upper-table
+{
+    font-size: 2vw;
+    font-family: cursive;
+    margin-bottom: .6vh;
+}
+
+/*Upper Left Rectangle Slider */
+.slider_container
+{
+    position: absolute;
+    top: 5vw;
+}
+
+.slider
+{
+    height: 35.5vh;
+    left: -5%;
+    overflow: hidden;
+}
+
+.rect_slider
+{
+    height: 7.5vh;
+    width: 28vw;
+    border: .4vw solid orange;
+    border-radius: 1vw;
+    top: 0vh;
+    left: 0%;
+    z-index: 1;
+    opacity: 0.9;
+    position: absolute;
+}
+
+/* Upper Inner */
+#upper-left-inner-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+.upper-inner-product-img
+{
+    position: absolute;
+    top: -6vw;
+    left: -2vw;
+
+    animation-duration: 1.8s;
+}
+
+.upper-inner-price-tag
+{
+    position: relative;
+    left: 25vw;
+    top: 6vw;
+    z-index: 1;
+}
+
+#logo
+{
+    margin-left: 28.5vw;
+}
+
+/* Upper Right */
+#upper-right-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-left-style: solid;
+    border-color: white;
+}
+
+.box
+{
+    height: 90vh;
+    width: 23vw;
+    top: 2.3vw;
+    left: 1vw;
+    opacity: 0.9;
+    position: absolute;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+.box .text
+{
+    height: 50vh;
+    width: 23vw;
+    font-size: 1vw;
+    background-color: black;
+    float: left;
+    display: block;
+    padding-left: 1vw;
+    color: orange;
+    font-weight: lighter;
+    text-shadow: 0.5px 0.5px #fdfefe;
+    border-radius: 1vw 1vw 0vw 0vw;
+    border: 0.2vw solid orange;
+    border-bottom: none;
+}
+
+.classification
+{
+    color: orange;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    left: -2vw;
+}
+
+.addon
+{
+    font-family: cursive;
+    font-size: 1.6vw;
+    margin-top: -0.5vw;
+    /* padding-left: 1vw; */
+}
+
+.box .image
+{
+    height: 40vh;
+    width: 23vw;
+    background-position: bottom center;
+    float: left;
+    border-radius: 0px 0px 1vw 1vw;
+    border: 0.2vw solid orange;
+    border-top: none;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+.right_side_image
+{
+    height: 40vh;
+}
+
+#right-side-price-tag
+{
+    max-width: 6.5vw;
+}
+
+.price_tag
+{
+    position: absolute;
+    margin-top: 14vw;
+    left: 17.3vw;
+}
+
+.hidden
+{
+    display: none;
+}
+
+/* Lower 
+=========================================*/
+.lower
+{
+    height: 45vh;
+}
+
+/* Lower Left */
+#lower-left-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+#lower-left-clasification
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+
+#lower-left-product-name
+{
+    font-size: 1.8vw;
+    font-family: cursive;
+    top: -4%;
+    left:-2vw;
+    z-index: 1;
+}
+
+#lower-left-img-drink
+{
+    max-width: 14vw;
+    margin-left: -2.5vw;
+}
+
+.lower-left-img-food
+{
+    max-width: 21vw;
+    margin-left: -4vw;
+    margin-top: .5vw;
+}
+
+.lower-left-price-tag
+{
+    max-width: 6.5vw;
+    margin-left: -0.5vw;
+    margin-top: 6.5vw;
+}
+
+/* Lower Inner */
+#lower-left-inner-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+#lower-inner-clasification
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.7vw;
+}
+
+#lower-inner-product-name
+{
+    font-size: 1.8vw;
+    font-family: cursive;
+    top: -4%;
+    left: -2vw;
+    z-index: 1;
+}
+
+#lower-inner-add_on
+{
+    max-width: 14vw;
+    margin-left: -1vw;
+}
+
+#lower-inner-drinks
+{
+    max-width: 14vw;
+    margin-left: -4vw;
+    margin-top: 0vw;
+}
+
+.lower-inner-food
+{
+    max-width: 23vw;
+    margin-left: -7vw;
+    margin-top: 0vw;
+}
+
+.lower-inner-price-tag
+{
+    max-width: 6.5vw;
+    margin-left: 1.5vw;
+    margin-top: 6.5vw;
+}
+
+/* Lower Right */
+#lower-right-side
+{
+    box-sizing: border-box;
+    border-width: .4vw;
+    border-left-style: solid;
+    border-color: white;
+}
+
+.drink, .add_on
+{
+    z-index: 1;
+}
+
+
+/* Media Query
+=================================================================================== */
+
+ /* Large devices (desktops, 1440px and up) */
+@media (max-width: 1440px) 
+{ 
+    /* Upper Inner */
+    .upper-inner-product-img
+    {
+        position: absolute;
+        max-width: 34vw;
+        top: -6vw;
+        left: -2vw;
+    }
+
+    .upper-inner-price-tag
+    {
+        position: relative;
+        left: 25vw;
+        top: 6vw;
+        z-index: 1;
+    }
+
+}
+
+/* Extra large devices (large desktops, 2560px and up) */
+@media (max-width: 2560px) 
+{ 
+    /* Upper Inner */
+    .upper-inner-product-img
+    {
+        position: absolute;
+        max-width: 34vw;
+        top: -6vw;
+        left: -2vw;
+    }
+
+    .upper-inner-price-tag
+    {
+        position: relative;
+        left: 25vw;
+        top: 6vw;
+        z-index: 1;
+    }
+
+    /* Lower Inner */
+    .lower-inner-food
+    {
+        max-width: 22vw;
+        margin-left: -7vw;
+        margin-top: 0vw;
+    }
+
+    #lower-inner-add_on 
+    {
+        max-width: 14vw;
+        margin-left: -6.8vw;
+        margin-top: -0.5vw;
+    }
+
+    .lower-inner-price-tag
+    {
+        max-width: 6.5vw;
+        margin-left: 1.5vw;
+        margin-top: 5.5vw;
+    }
+
+     /* Right Side Price Tag */
+     .price_tag
+     {
+         position: absolute;
+         margin-top: 14vw;
+         left: 17.3vw;
+     }
+}
